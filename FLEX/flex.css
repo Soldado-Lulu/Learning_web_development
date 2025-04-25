@@ -1,0 +1,157 @@
+body{
+    background-color: beige;
+    padding: 25px;
+
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    border: solid 2px black;
+    padding: 5px;
+    margin: 10px auto;
+}
+.primero{
+    display: flex;
+    justify-content: space-evenly;
+}
+.primero .box{
+    padding: 3%;
+background-color: aquamarine;
+
+}
+
+.segundo{
+    display: flex;
+    justify-content: space-around;
+}
+.segundo .box{
+padding: 3%;
+background-color: rgb(127, 200, 255);
+}
+
+.tercero{
+    display: flex;
+    justify-content: space-around;
+}
+.tercero .box{
+padding: 3%;
+background-color: rgb(155, 255, 127);
+}
+.cuarto{
+    display: flex;
+    justify-content: flex-start;
+}
+.cuarto .box{
+padding: 3%;
+background-color: rgb(155, 255, 127);
+margin: 10px;
+}
+.quinto{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.quinto .box{
+padding: 3%;
+background-color: rgb(155, 255, 127);
+margin: 10px;
+}
+.sexto{
+    display: flex;
+    justify-content:center;
+}
+.sexto .box{
+padding: 3%;
+background-color: rgb(155, 255, 127);
+margin: 10px;
+}
+
+
+section{
+    background-color: azure;
+    display: flex;
+}
+section .box{
+    flex: 1;
+    padding: 3%;
+    background-color: brown;
+    margin: 10px;
+}
+ section article{
+    padding: 3%;
+    background-color: brown;
+    margin: 10px;
+}
+
+.prueba{
+    background-color: azure;
+    display: flex;
+}
+ .prueba .box1{
+    flex: 1;
+    padding: 3%;
+    background-color: brown;
+    margin: 10px;
+ }
+ .prueba .box2{
+    flex: 2;
+    padding: 3%;
+    background-color: brown;
+    margin: 10px;
+ }
+ .prueba .box3{
+    flex: 3;
+    padding: 3%;
+    background-color: brown;
+    margin: 10px;
+ }
+
+
+
+ .menu{
+    display: flex;
+    background-color: black;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+ }
+ .menu button{
+    flex: 1;
+    padding: 25px;
+ }
+
+ .menu1{
+    display: flex;
+    background-color: black;
+    justify-content: left;
+    
+   
+ }
+.caja{
+    background-color: rgb(62, 168, 62);
+ }
+h5{
+    text-align: center;
+    
+ }
+ .vertical{
+    padding: 25px;  
+    display: flex;
+    flex-direction: column;
+    
+ }
+.vertical button{
+    padding: 15px;
+    margin: 5px;  
+}
+.menu1 .caja{
+flex: 2;
+border: solid 5px blue;
+}
+.menu1 .vertical{
+    flex: 1;
+}
+
+

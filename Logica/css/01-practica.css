@@ -1,0 +1,79 @@
+/* Configuración general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Asegura un tamaño mínimo de 300px */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Área de datos */
+.area {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Asegura que nada sobresalga del área */
+    word-wrap: break-word; /* Ajusta palabras largas */
+    transition: transform 0.3s ease;
+}
+
+.area:hover {
+    transform: scale(1.05);
+}
+
+/* Títulos de secciones */
+.area h2 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+    word-wrap: break-word; /* Ajusta palabras largas dentro de listas */
+}
+
+/* Ajuste para texto largo */
+p, li {
+    line-height: 1.6; /* Mejora la legibilidad */
+    font-size: 0.95em;
+    overflow-wrap: anywhere; /* Permite romper palabras largas */
+    margin: 5px 0;
+}
+
+/* Ajuste para dispositivos pequeños */
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas pequeñas */
+    }
+}

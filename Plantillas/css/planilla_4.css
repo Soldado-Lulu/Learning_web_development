@@ -1,0 +1,71 @@
+/* 🎨 CONFIGURACIÓN GENERAL DE LA PÁGINA */
+body {
+  font-family: Arial, sans-serif; /* Establece la fuente del texto para toda la página */
+  margin: 0;                     /* Elimina márgenes por defecto */
+  padding: 0;                    /* Elimina rellenos por defecto */
+  background-color: #f0f0f0;     /* Fondo gris claro para todo el cuerpo */
+  color: #333;                   /* Color del texto (gris oscuro) para mejor legibilidad */
+}
+/* 🧱 HEADER (encabezado de la página) */
+header {
+  background-color: #003366;     /* Azul oscuro de fondo */
+  color: white;                  /* Color del texto en el header */
+  padding: 20px;                 /* Espacio interno (arriba, abajo, izquierda, derecha) */
+  text-align: center;            /* Centra el texto horizontalmente */
+}
+/* 📝 TÍTULO PRINCIPAL DENTRO DEL HEADER */
+header h1 {
+  margin: 0;                     /* Elimina el espacio adicional que tiene el h1 por defecto */
+  font-size: 2.5em;              /* Tamaño grande del texto para resaltar el título */
+}
+/* 🧭 NAVEGACIÓN - LISTA DE ENLACES */
+nav ul {
+  list-style: none;             /* Quita los puntos (•) de la lista */
+  padding: 0;                   /* Elimina espacio interno */
+  margin-top: 15px;             /* Agrega separación respecto al h1 */
+  display: flex;                /* Usa flexbox para alinear horizontalmente los ítems */
+  justify-content: center;     /* Centra los elementos en la fila */
+  gap: 20px;                    /* Espacio entre cada ítem del menú */
+}
+/* 🔗 ESTILO DE LOS ENLACES DENTRO DEL MENÚ */
+nav a {
+  color: white;                 /* Hace que los enlaces sean blancos */
+  text-decoration: none;       /* Quita el subrayado por defecto */
+  font-weight: bold;           /* Texto en negrita para resaltar */
+}
+
+/* 🔁 EFECTO CUANDO PASAS EL MOUSE POR ENCIMA */
+nav a:hover {
+  text-decoration: underline;  /* Muestra subrayado al pasar el mouse */
+}
+/* 📦 CONTENIDO PRINCIPAL */
+main {
+  padding: 40px;               /* Espacio interno amplio para que no esté todo pegado al borde */
+}
+/* 📄 CADA SECCIÓN DENTRO DEL MAIN */
+section {
+  background-color: white;    /* Fondo blanco para destacar del fondo gris general */
+  margin-bottom: 30px;        /* Espacio entre secciones */
+  padding: 20px;              /* Espacio interno dentro del bloque */
+  border-radius: 8px;         /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08); /* Sombra suave para dar profundidad */
+}
+/* 📌 PIE DE PÁGINA */
+footer {
+  background-color: #003366;   /* Mismo color que el header para unidad visual */
+  color: white;                /* Texto blanco */
+  text-align: center;          /* Centra el texto del footer */
+  padding: 15px;               /* Espacio interior */
+  font-size: 0.9em;            /* Tamaño de letra un poco más pequeño */
+}
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+
+.caja {
+  background: tomato;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}

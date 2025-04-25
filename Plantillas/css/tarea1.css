@@ -1,0 +1,123 @@
+/* 💻 General */
+body {
+    margin: 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+/* Contenedor principal del header */
+.encabezado {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Logo + título en línea */
+  .contenedor-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: #ccc solid 1px;
+  }
+  
+  /* Imagen del logo */
+  .contenedor-header img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 20px;
+    padding: 30px;
+    background-color: aquamarine;
+  }
+  
+  /* Título ocupa el resto del espacio */
+  .titulo {
+    flex: 1;                     /* Ocupa todo el espacio restante */
+    font-size: 2em;
+    margin: 0;
+    text-align: center;            /* Alineación izquierda (puedes cambiar a center) */
+    border: 1px solid black;
+    padding: 30px;
+    }
+  
+  /* 📑 Menú de navegación */
+  .menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    margin: 0;
+    gap: 20px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .menu li a:hover {
+    background-color: #ddd;
+  }
+  
+  
+  /* Contenedor de cada speaker */
+  .speaker {
+    display: flex; /* Distribuye en línea: texto a la izquierda, imagen a la derecha */
+    justify-content: space-between; /* Deja espacio entre los elementos */
+    align-items: center; /* Alinea verticalmente */
+    border: 1px solid #ccc; /* Borde del recuadro */
+    padding: 20px;  
+    margin-bottom: 20px; /* Espacio entre recuadros */
+  }
+  
+  /* Contenedor del texto */
+  .speaker-info {
+    flex: 1; /* Que ocupe todo el espacio disponible */
+    margin-right: 20px; /* Espacio entre el texto y la imagen */
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Imagen del speaker */
+  .speaker img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover; /* Recorta bien la imagen si no es del tamaño exacto */
+    border: 1px solid #ccc;
+  }
+  
+/* Contenedor de las tarjetas */
+.contenedor {
+    display: flex;                      /* Organiza los elementos hijos en fila */
+    justify-content: space-evenly;     /* Espacio igual entre todas las tarjetas */
+    flex-wrap: wrap;                   /* Permite que se bajen si no entran */
+    padding: 20px;
+    gap: 20px;      
+    border: solid 1px #ccc;                   /* Espacio entre tarjetas (extra además del evenly) */
+  }
+  
+  /* Cada tarjeta (imagen + nombre) */
+  .prox {
+    text-align: center;                /* Centra el texto debajo de la imagen */
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 120px;                      /* Tamaño fijo para alineación uniforme */
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Imagen dentro de la tarjeta */
+  .prox img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  footer{
+    border: #ccc solid 1px;
+    padding: 10px;
+    margin-top:15px;
+    background-color: #ddd;
+  }
