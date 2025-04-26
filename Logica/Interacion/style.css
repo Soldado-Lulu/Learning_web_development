@@ -17,7 +17,27 @@
     border-radius: 10px;
 
 }
-
 .formulario{
-    
+    display: flex;
+    flex-direction: column;  /* Apila los elementos uno debajo del otro */
+    align-items: center;     /* Centra horizontalmente */
+    padding: 10px; 
 }
+.formulario input {
+    width: auto;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+  }
+  label{
+    display: block;
+    margin-top: 20px;
+    text-align: center; /* Centra el texto */
+  }
+ .usuario{
+    padding: 5px;
+   border:solid black 1px;
+   margin: 5px;
+ }
