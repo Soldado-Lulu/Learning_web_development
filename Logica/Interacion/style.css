@@ -1,0 +1,23 @@
+.encabezado{
+    background-color: antiquewhite;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Funciones{
+    border: solid 1px black;
+    justify-items: center;
+    flex: 1;
+    background-color: #00bcd4;
+    border-radius: 10px;
+
+}
+
+.formulario{
+    
+}

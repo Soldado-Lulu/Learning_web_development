@@ -7,14 +7,38 @@
     <link rel="stylesheet" href="/Logica/Interacion/style.css">
 </head>
 <body>
-    <div class="cuerpo">
-        <div class="fuciones">
-            <div class="metodo">
-                <button onclick="Hola()"> Funcion  #1</button>
+    <header class="encabezado">
+        <div class="contenedor-header">
+            <h1 class="titulo">Título</h1>
+          </div>
+      </header>
+      <main>
+        <div class="contenedor">
+            <div class="Funciones">
+                <h3>Funcion de contador</h3>
+                <div id="Contador"></div>
+                <button onclick="Incrementar()">Golpeame</button>
+            </div>
+            <div class="Funciones">
+                <div class="formulario">
+                    <h3>Formulario</h3>
+                    <input type="text" id="nombre" placeholder="Nombre">
+                    <input type="number" id="edad" placeholder="Edad">
+                    <input type="email" id="correo" placeholder="Correo electrónico">
+                    <button onclick="mostrarDatos()">Enviar</button>
+                    <label id="resultado"></label> 
+                </div>
+            </div>
+            <div class="Funciones">
+                <h3>Contador</h3>
+                <button onclick="Contador()">Click</button>
+            </div>
+            <div class="Funciones">
+                <h3>Contador</h3>
+                <button onclick="Contador()">Click</button>
             </div>
         </div>
-    </div>
-
+      </main>
     <script src="script.js"></script>
 </body>
 </html>

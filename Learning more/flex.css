@@ -113,7 +113,6 @@ section .box{
  .menu{
     display: flex;
     background-color: black;
-    justify-content: left;
     margin: 0;
     padding: 0;
  }
